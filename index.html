@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Acerte a palavra</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+            <img src="ods.png" alt="Os 17 objetivos de desenvolvimento sustentável">
+            <h1>Acerte a palavra</h1>
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="conts">
+                    <div class="close-btn" onclick="togglePopup()">&times;
+                </div>
+                <p>Descubra a palavra certa em 5 tentativas nesse jogo estilo forca. Um acerto não diminui as tentativas restantes. Toda palavra tem uma dica única.</p>
+                <p>Esse é um projeto com fim exclusivamente educativo, criado e desenvolvido durante o projeto de extensão da Universidade de Integração Latino-Americana, chamado 'Pensando fora da caixa: estratégias criativas para a sala de aula'.</p>
+                </div>
+            <button class="interrogation-btn" onclick="togglePopup()">&#63</button>
+            <div class="content">
+                <input type="text" class="typing-input" maxlength="1">
+                <div class="inputs"></div>
+                <div class="details">
+                    <p class="hint">Dica: <span></span></p>
+                    <p class="guess-left">Tentativas restantes: <span></span></p>
+                    <p class="wrong-letter">Letras erradas: <span></span></p>
+                </div>
+                <button class="reset-btn">Reiniciar o jogo</button>
+            </div>
+        </div>
+
+        <script src="js/word.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+    
+</html>
