@@ -181,6 +181,6 @@ const wordList = [
     },
     {
         word: "risco",
-        hint: "Não se deve invadir a de ninguém"
+        hint: "Probabilidade de perigo"
     },
 ]
