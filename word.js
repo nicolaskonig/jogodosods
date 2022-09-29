@@ -172,10 +172,6 @@ const wordList = [
         hint: "Usar o tempo e as suas melhores competências técnicas e comportamentais com autonomia para criar valor"
     },
     {
-        word: "privacidade",
-        hint: "Não se deve invadir a de ninguém"
-    },
-    {
         word: "desastre",
         hint: "Evento, acontecimento que causa sofrimento e grande prejuízo"
     },
